@@ -4,6 +4,8 @@ import mongoose from 'mongoose';
 import { app } from './app';
 
 const startServer = async () => {
+  console.log('Starting up!!!');
+
   if (!process.env.JWT_KEY) {
     throw new Error("Can't generate JWT");
   }
