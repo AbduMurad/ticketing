@@ -9,7 +9,7 @@ import { ExpirationCompleteListener } from './events/listeners/expiration-comple
 import { PaymentCreatedListener } from './events/listeners/payment-created-listener';
 
 const startServer = async () => {
-  console.log('Starting....');
+  console.log('Starting....!!');
 
   if (!process.env.JWT_KEY) {
     throw new Error("Can't generate JWT");
